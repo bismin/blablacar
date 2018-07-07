@@ -1,51 +1,71 @@
-departure_point,source,destination,drop_off_point,departure_date
+drop_off_point,source,name,departure_point,departure_date,price,destination,age
 "
-                                                    Jahangirpuri
-                                            ",Delhi,Chandigarh,"
-                                                   ISBT 17 Chowk, 17F, Sector 17, Chandigarh, 160017, India
-                                            ",2018-07-07 21:22:55.059068
-"
-                                                    A-1/37, Block 7, Pocket 1, Sector 16A, Rohini, Delhi, 110089, India
-                                            ",Delhi,Rajpura,"
-                                                    Scholars Public School, Rajpura
-                                            ",2018-07-07 21:22:55.062853
-"
-                                                    Gurgaon Bus Stand
-                                            ",Gurugram,Chandigarh,"
-                                                   Chandigarh Bus Terminus
-                                            ",2018-07-07 21:22:55.065315
-"
-                                                    Punjabi Bagh
-                                            ",Delhi,Chandigarh,"
-                                                    Meeting in Tribune Chowk, 31B, Sector 31, Chandigarh, 160030: contact car owner for details
-                                            ",2018-07-07 21:22:55.067891
-"
-                                                    Station Approach Road, Metro Vihar, Shastri Park, Shahdara, New Delhi, Delhi 110033, India
-                                            ",Delhi,Chandigarh,"
-                                                   178 & 178a, Elante Mall, Purv Marg, Industrial Area Phase I, Chandigarh 160002, India
-                                            ",2018-07-07 21:22:55.070526
-"
-                                                    New Delhi, Delhi, India
-                                            ",New Delhi,Kharar,"
-                                                   Kharar, Punjab 140301, India
-                                            ",2018-07-07 21:22:55.073722
-"
-                                                    Jahangirpuri
-                                            ",Delhi,Chandigarh,"
                                                    Shop No.26/3, Dakshin Marg, Industrial Area Phase II, Chandigarh, 160002, India
-                                            ",2018-07-08 21:22:55.077265
+                                            ",Delhi,"
+                            Vicky
+                        ","
+                                                    Jahangirpuri
+                                            ",2018-07-08 00:44:54.003457,550,Chandigarh,22
 "
-                                                    Main Rd, Raghubarpura 2, Seelampur, Shahdara, Delhi, 110031, India
-                                            ",Delhi,Rajpura,"
                                                     Scholars Public School, Rajpura
-                                            ",2018-07-08 21:22:55.079775
+                                            ",Delhi,"
+                            Gurnam
+                        ","
+                                                    Main Rd, Raghubarpura 2, Seelampur, Shahdara, Delhi, 110031, India
+                                            ",2018-07-08 00:44:54.007927,678,Rajpura,45
 "
-                                                    I.S.B.T. Kashmere Gate
-                                            ",Delhi,Chandigarh,"
+                                                    Meeting in Tribune Chowk, 31B, Sector 31, Chandigarh, 160030: contact car owner for details
+                                            ",Delhi,"
+                            Sahib
+                        ","
+                                                    Jahangirpuri
+                                            ",2018-07-08 00:44:54.010955,650,Chandigarh,25
+"
                                                    Tribune Chowk, 31B, Sector 31, Chandigarh, 160030, India
-                                            ",2018-07-08 21:22:55.082185
+                                            ",Delhi,"
+                            Vikram
+                        ","
+                                                    Shadipur, New Delhi
+                                            ",2018-07-08 00:44:54.013837,760,Chandigarh,22
 "
-                                                    G 103, Pocket C, Sarita Vihar, New Delhi, Delhi 110076, India
-                                            ",New Delhi,Chandigarh,"
                                                     Tribune chowk, Chandigarh
-                                            ",2018-07-08 21:22:55.084939
+                                            ",New Delhi,"
+                            Manish Bhadana
+                        ","
+                                                    G 103, Pocket C, Sarita Vihar, New Delhi, Delhi 110076, India
+                                            ",2018-07-08 00:44:54.017444,572,Chandigarh,37
+"
+                                                   Infosys Ltd.
+                                            ",Delhi,"
+                            Jasmeen
+                        ","
+                                                    Departure point in 14, Sham Nath Marg, Ludlow Castle, Civil Lines, New Delhi, Delhi 110054, India: contact car owner for details
+                                            ",2018-07-08 00:44:54.022345,600,Sukteri,23
+"
+                                                   ISBT Road, 17G, 17F, Sector 17, Chandigarh, 160017, India
+                                            ",Delhi,"
+                            Nikhil
+                        ","
+                                                    Indira Gandhi International Airport
+                                            ",2018-07-08 00:44:54.026383,640,Chandigarh,28
+"
+                                                   Ambala Cantt, Haryana 133001, India
+                                            ",Delhi,"
+                            Sunil
+                        ","
+                                                    Mukarba Chowk
+                                            ",2018-07-08 00:44:54.029936,500,Ambala Sadar,31
+"
+                                                    Meeting in Tribune Chowk, 31B, Sector 31, Chandigarh, 160030: contact car owner for details
+                                            ",Delhi,"
+                            Nitin
+                        ","
+                                                    Departure point in BL-55-A, Gyan Shakti Mandir Marg, Block BI, West Shalimar Bagh, Shalimar Bagh, Delhi, 110088, India: contact car owner for details
+                                            ",2018-07-08 00:44:54.033803,560,Chandigarh,28
+"
+                                                   Burail, Burail Village, Sector 45, Chandigarh, 160047, India
+                                            ",Delhi,"
+                            Amar
+                        ","
+                                                    2A, Rd Number 235, Block JG 3, Vikaspuri, Delhi, 110018, India
+                                            ",2018-07-08 00:44:54.037944,550,Chandigarh,30
