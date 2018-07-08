@@ -6,9 +6,18 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
-
-class ProjectBlablacarsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+from scrapy.item import Item, Field 
+class BlablacarItem(scrapy.Item):
+      
+      source = scrapy.Field()
+      destination=scrapy.Field()
+      departure_point=scrapy.Field()
+      drop_off_point=scrapy.Field()
+      name=scrapy.Field()
+      age=scrapy.Field()
+      price=scrapy.Field()
+      date=scrapy.Field()
+      seats_left=scrapy.Field()
+      image=scrapy.Field()
+      car_owner_rating=scrapy.Field()
+      absolute_url=scrapy.Field()
