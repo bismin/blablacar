@@ -2,6 +2,7 @@
 import scrapy
 import dateparser
 from scrapy import Request
+from scrapy.linkextractors import LinkExtractor
 
 
 class CarSpider(scrapy.Spider):
@@ -22,5 +23,13 @@ class CarSpider(scrapy.Spider):
 		age=job.xpath('div[@class="ProfileCard ProfileCard--condensed span2"]/div[@class="ProfileCard-head"]/div[@class="ProfileCard-infosBlock"]/div[@class="ProfileCard-info"]/text()').re("([\d]+)")
 		price=job.xpath('div[@class="offer span2 u-alignRight"]/div[@class="price price-black"]/strong/span[@class=""]/text()').re("([\d]+)")
 
+		
+		seats_left=job.xpath('div[@class="offer span2 u-alignRight"]/div[@class="availability"]/strong/text()').re("([\d]+)")
+		image=job.xpath('div[@class="ProfileCard ProfileCard--condensed span2"]/div[@class="ProfileCard-head"]/div[@class="ProfileCard-picture"]/div[@class="PhotoWrapper PhotoWrapper--medium"]/img/@src').extract_first()
 
-		yield{'price':price,'age':age,'name':name,'source':source,'destination':destination,'departure_point':departure_point,'drop_off_point':drop_off_point,'departure_date':departure_date}
+		yield{'image':image,'seats_left':seats_left,'price':price,'age':age,'name':name,'source':source,'destination':destination,'departure_point':departure_point,'drop_off_point':drop_off_point,'departure_date':departure_date}
+
+
+	relative_next_url = response.xpath('//ul/li[@class="next"]/a/@href').extract_first()
+	absolute_next_url = response.urljoin(relative_next_url)
+ 	yield Request(absolute_next_url, callback=self.parse)
