@@ -1,71 +1,50 @@
-name,car_owner_rating,departure_point,absolute_url,age,destination,seats_left,drop_off_point,source,date,price,image
-"
-                            Paramjeet
-                        ",,"
-                                                    I.S.B.T. Kashmere Gate
-                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1159607024,53,Chandigarh,2,"
-                                                   223, Himalaya Marg, Sector 21A, Sector 21, Chandigarh, 160022, India
-                                            ",Delhi,2018-07-08 23:34:44.299051,550,https://d2kwny77wxvuie.cloudfront.net/user/KIYWSqMeQ3O1B-ywxvqqNg/thumbnail_72x72.jpeg
-"
-                            Gurjeet
-                        ",4.7/5,"
-                                                    B167, Nangli Jalib, Janakpuri, New Delhi, Delhi 110058, India
-                                            ",https://www.blablacar.in/trip-new-delhi-khanna-1157625975-a606435,39,Rajpura,3,"
-                                                    Scholars Public School, Rajpura
-                                            ",New Delhi,2018-07-09 23:34:44.304647,613,https://d2kwny77wxvuie.cloudfront.net/user/cdXyqeCYSYa4bl44Kn1X4Q/thumbnail_72x72.jpeg
+name,car_owner_rating,departure_point,absolute_url,age,destination,seats_left,options,drop_off_point,source,date,price,image
 "
                             Rohit
-                        ",4.6/5,"
-                                                    Gate No. 4 Plot No. 16, Ahinsa Khand-I Opposite Reliance Trends, Indirapuram, Ghaziabad, Uttar Pradesh 201014, India
-                                            ",https://www.blablacar.in/trip-ghaziabad-patiala-1159645363-a606435,33,Rajpura,3,"
-                                                    Scholars Public School, Rajpura
-                                            ",Ghaziabad,2018-07-09 23:34:44.308562,653,https://d2kwny77wxvuie.cloudfront.net/user/MjuoYUIgR26lTe1EzryZCw/thumbnail_72x72.jpeg
+                        ",4.4/5,"
+                                                    Block C, Bhalswa Jahangirpuri, Jahangirpuri, Delhi, 110033, India
+                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1-1156302940,29,Chandigarh,2,,"
+                                                   Gurudwara Chowk, Block D, Sector 30, Chandigarh, India
+                                            ",Delhi,2018-07-09 10:46:03.487040,500,https://d2kwny77wxvuie.cloudfront.net/user/AWx_h_oKTvW0RevfLVbinA/thumbnail_72x72.jpeg
 "
-                            Rupak
-                        ",4.8/5,"
-                                                    Vatika City
-                                            ",https://www.blablacar.in/trip-gurugram-zirakpur-1159508051,35,Zirakpur,2,"
-                                                   Zirakpur Bus Stand
-                                            ",Gurugram,2018-07-09 23:34:44.312260,600,https://d2kwny77wxvuie.cloudfront.net/user/yxzFEiF3Sj6atph3dkt5SA/thumbnail_72x72.jpeg
-"
-                            Sabir
-                        ",,"
-                                                    146, Vigyan Vihar, Sector 56, Gurugram, Haryana 122011, India
-                                            ",https://www.blablacar.in/trip-gurugram-zirakpur-1157811153,31,Zirakpur,1,"
+                            Sunil
+                        ",4/5,"
+                                                    I.S.B.T. Kashmere Gate
+                                            ",https://www.blablacar.in/trip-delhi-zirakpur-1154646495,35,Zirakpur,1,Max. 2 in the back seats,"
                                                    Zirakpur, Punjab, India
-                                            ",Gurugram,2018-07-09 23:34:44.317295,640,https://d2kwny77wxvuie.cloudfront.net/user/378t--e8Qf6jBay53oPqow/thumbnail_72x72.jpeg
+                                            ",Delhi,2018-07-09 10:46:03.536386,630,https://d2kwny77wxvuie.cloudfront.net/user/GDXI9TuZQsKO8vkenM4GAg/thumbnail_72x72.jpeg
 "
-                            Amit
-                        ",4/5,"
-                                                    Singhu Border
-                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1158408533,26,Chandigarh,1,"
-                                                   Matka Chowk, 17A, Sector 17, Chandigarh, India
-                                            ",Delhi,2018-07-09 23:34:44.321980,460,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-m.svg
+                            Vivek
+                        ",,"
+                                                    Jahangirpuri Metro Station
+                                            ",https://www.blablacar.in/trip-delhi-ambala-sadar-1160077326,35,Ambala Sadar,4,Max. 2 in the back seats,"
+                                                   Ambala Cantt Bus Stand
+                                            ",Delhi,2018-07-09 10:46:03.539353,450,https://d2kwny77wxvuie.cloudfront.net/user/rdmN5sB_Rpi7XXpm0o5YBA/thumbnail_72x72.jpeg
+"
+                            Sushila
+                        ",5/5,"
+                                                    Kashmiri Gate ISBT
+                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1159625329,24,Chandigarh,2,,"
+                                                   Tribune chowk, Chandigarh
+                                            ",Delhi,2018-07-09 10:46:03.500683,600,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-f.svg
+"
+                            Maan
+                        ",,"
+                                                    Karkarduma, नई दिल्ली
+                                            ",https://www.blablacar.in/trip--chandigarh-1157314517,23,Chandigarh,3,Max. 2 in the back seats,"
+                                                   Sector 17 Bus Stand Rd, 17E, Sector 17, Chandigarh, 160022, India
+                                            ",Delhi,2018-07-09 10:46:03.533312,610,https://d2kwny77wxvuie.cloudfront.net/user/IXHzo5TZQRaSgsSugZEbmA/thumbnail_72x72.jpeg
+"
+                            Kartik
+                        ",,"
+                                                    Jahangirpuri
+                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1158646064,21,Chandigarh,4,,"
+                                                   Tribune Chowk, 31B, Sector 31, Chandigarh, 160030, India
+                                            ",Delhi,2018-07-09 10:46:03.503747,500,https://d2kwny77wxvuie.cloudfront.net/user/kaogmkpKTaO-GOqr1uJo8g/thumbnail_72x72.jpeg
 "
                             Manoj
-                        ",,"
-                                                    G.T.K. Bypass
-                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1159496445,29,Chandigarh,4,"
-                                                   Tribune Chowk, 31B, Sector 31, Chandigarh, 160030, India
-                                            ",Delhi,2018-07-09 23:34:44.325626,500,https://d2kwny77wxvuie.cloudfront.net/user/8g_A-1uHRGi-mVuzhxFmuA/thumbnail_72x72.jpeg
-"
-                            Manoj
-                        ",,"
-                                                    G.T.K. Bypass
-                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1159693754,30,Chandigarh,4,"
-                                                   Tribune Chowk, 31B, Sector 31, Chandigarh, 160030, India
-                                            ",Delhi,2018-07-09 23:34:44.329293,500,https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/avatar/driver-m.svg
-"
-                            Sanjeev
-                        ",,"
-                                                    Inter State Bus Terminal, Kashmere Gate, New Delhi, Delhi 110006, India
-                                            ",https://www.blablacar.in/trip-delhi-chandigarh-1-1148293540,36,Chandigarh,3,"
-                                                   ISBT 17 Chowk, 17F, Sector 17, Chandigarh, 160017, India
-                                            ",Delhi,2018-07-09 23:34:44.335437,500,https://d2kwny77wxvuie.cloudfront.net/user/zKeCegdPTb6dsPH0CRFrMA/thumbnail_72x72.jpeg
-"
-                            Krishna Kumar
-                        ",4/5,"
-                                                    Vaishali Metro Station
-                                            ",https://www.blablacar.in/trip-ghaziabad-bhadak-1156338136,48,Bhadak,1,"
-                                                    Meeting in Patiala - Rajpura Rd, Rajpura, Punjab 140401, India: contact car owner for details
-                                            ",Ghaziabad,2018-07-09 23:34:44.339342,590,https://d2kwny77wxvuie.cloudfront.net/user/UdSa8KPaSCyVDm0JFjANbQ/thumbnail_72x72.jpeg
+                        ",3.7/5,"
+                                                    Delhi, Sector 29, Gurugram, Haryana 122007, India
+                                            ",https://www.blablacar.in/trip-gurugram-chandigarh-1160069304,33,Chandigarh,3,Max. 2 in the back seats,"
+                                                   17G, 17F, Sector 17, Chandigarh, 160017, India
+                                            ",Gurugram,2018-07-09 10:46:03.574949,400,https://d2kwny77wxvuie.cloudfront.net/user/d17Q99syR2OM8SmPhKTahA/thumbnail_72x72.jpeg

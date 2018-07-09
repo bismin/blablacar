@@ -21,3 +21,4 @@ class BlablacarItem(scrapy.Item):
       image=scrapy.Field()
       car_owner_rating=scrapy.Field()
       absolute_url=scrapy.Field()
+      options=scrapy.Field()

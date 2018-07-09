@@ -2,10 +2,11 @@
 import scrapy
 from ..items import BlablacarItem
 import dateparser
-
+from scrapy.linkextractors import LinkExtractor
+from scrapy import Request
 class CarSpider(scrapy.Spider):
     name = 'car'
-    allowed_domains = ['https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/#?fn=new+delhi']
+    allowed_domains = ['blablacar.in']
     start_urls = ['https://www.blablacar.in/ride-sharing/new-delhi/chandigarh/#?fn=new+delhi&fcc=IN&tn=chandigarh&tcc=IN&sort=trip_date&order=asc&limit=10&page=1']
 
     def parse(self, response):
@@ -45,5 +46,14 @@ class CarSpider(scrapy.Spider):
 		item['car_owner_rating']=car_owner_rating
 		item['absolute_url']=absolute_url
 		
+		
+		absolute_url = response.urljoin(relative_url)
+		r=scrapy.Request(absolute_url, callback=self.parse_page)
+		r.meta['item']=item
+		yield r
 
-		yield item
+    def parse_page(self, response):
+	item=response.meta['item']
+    	options = response.xpath('//div[@class="RideDetails-infoValue"]/span/span[@class="u-alignMiddle"]/text()').extract()
+	item['options']=options
+	yield item
